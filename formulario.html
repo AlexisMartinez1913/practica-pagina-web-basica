@@ -1,0 +1,171 @@
+<! DOCTYPE html>
+  <html>
+
+  <head>
+    <title> Formulario </title>
+    <meta charset="UTF-8">
+    <script>
+      function validarFormulario() {
+        var txtNombre = document.getElementById('nombre').value;
+        var txtDireccion = document.getElementById('direccion').value;
+        var txtTelefono = document.getElementById('telefono'.value);
+        var txtCorreo = document.getElementById('correo').value;
+        var txtCiudad = document.getElementById('ciudad').value;
+        var txtEdad = document.getElementById('edad').value;
+
+        if (txtNombre == null || txtNombre.length == 0) {
+          alert('ERROR: debes ingresar un nombre');
+          return false;
+        }
+
+        if (txtDireccion == null || txtDireccion.length == 0) {
+          alert('ERROR: debes ingresar una dirección');
+          return false;
+        }
+
+        if (txtCorreo == null || txtCorreo.length == 0) {
+          alert('ERROR: debes ingresar un correo');
+          return false;
+        }
+        if (txtCiudad == null || txtCiudad.length == 0) {
+          alert('ERROR: debes ingresar una Ciudad');
+          return false;
+        }
+        if (txtEdad == null || txtEdad.length == 0) {
+          alert('ERROR: debes ingresar tu Edad');
+          return false;
+        }
+        alert('DATOS CORRECTOS, ENVIANDO INFORMACIÓN AL SERVIDOR');
+        return true;
+      }
+    </script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/archivo.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <a name="formulario"></a>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+
+      <a class="navbar-brand" href="#">
+        <font style="vertical-align: heredar;">
+          <font style="vertical-align: heredar;"> Barra de navegación </font>
+          </ fuente>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="# navbarColor01"
+        aria-controls="navbarColor01" aria-extended="false" aria-label="Navegación de palanca ">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+              <font style="vertical-align: heredar;">
+                <font style="vertical-align: heredar;"> INICIO </font>
+              </font> <span class="sr-only">
+                <font style="vertical-align: heredar;">
+                  <font style="vertical-align: heredar;"> (real) </font>
+                </font>
+                </ span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tablas.html#tablas">
+              <font style="vertical-align: heredar;">
+                <font style="vertical-align: heredar;"> TABLAS </font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.html#video">
+              <font style="vertical-align: heredar;">
+                <font style="vertical-align: heredar;"> VIDEO </font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html#formulario">
+              <font style="vertical-align: heredar;">
+                <font style="vertical-align: heredar;"> FORMULARIO </font>
+                </ font>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </nav>
+    <center>
+      <img src="img/lenguajesdeprogramacion.jpg" height="500" width="1000">
+    </center><br><br><br>
+
+
+    <button type="button" class="btn btn-primary btn-lg btn-block">
+      <font style="vertical-align: heredar;">
+        <font style="vertical-align: heredar;"> Formulario </font>
+      </font>
+    </button>
+    <br>
+    <center>
+
+      <form action="" onsubmit="return validarFormulario()">
+
+        <label for="nombre">
+          <strong>NOMBRE:</strong>
+        </label>
+        <input id="nombre" name="nombre" type="text">
+        <br><br>
+        <label for="direccion">
+          <strong> DIRECCIÓN: </strong>
+        </label>
+        <input id="direccion" name="direccion" type="text">
+        <br><br>
+        <label for="telefono">
+          <strong> TELEFONO: </strong>
+        </label>
+        <input id="telefono" name="telefono" type="text">
+        <br><br>
+        <label for="correo">
+          <strong> CORREO: </strong>
+        </label>
+        <input id="correo" name="correo" type="text">
+        <br><br>
+        <label for="ciudad">
+          <strong> CIUDAD: </strong>
+        </label>
+        <input id="ciudad" name="ciudad" type="text">
+        <br><br>
+        <label for="edad">
+          <strong> EDAD: </strong>
+        </label>
+        <input id="edad" name="edad" type="text">
+        <br><br>
+        <input type="submit" value="ENVIAR">
+      </form>
+    </center>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <center>
+      <div id="piepagina">
+        <p> Derechos Reservados - Institución Universitaria Pascual Bravo - Contacto: jhonyalexis100@gmail.com - 2023</p>
+      </div>
+    </center>
+
+
+
+  </body>
+
+  </html>

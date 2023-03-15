@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+'<root>
+     <item id="1">
+       <IdEmpleado>1</IdEmpleado>
+       <strNombre>Javier Saldarriaga</strNombre>
+       <NumDocumento>32078990</NumDocumento>
+       <strDireccion>Calle 65 r nro 100 28</strDireccion>
+	   <strTelefono> 4226789 </strTelefono>
+	   <strEmail> javisaldarriaga@gmail.com </strEmail>
+	   
+     </item>
+     <item id="2">
+        <IdEmpleado>2</IdEmpleado>
+       <strNombre>Rosmira Giraldo</strNombre>
+       <NumDocumento>71649098</NumDocumento>
+       <strDireccion>Calle 70 # 10 20</strDireccion>
+	   <strTelefono> 300678900 </strTelefono>
+	   <strEmail> rosmi12@gmail.com </strEmail>
+     </item>
+     <item id="3">
+        <IdEmpleado>1</IdEmpleado>
+       <strNombre>Jorge Muñoz</strNombre>
+       <NumDocumento>1036789098</NumDocumento>
+       <strDireccion>Calle 69 100 20</strDireccion>
+	   <strTelefono> 5766890 </strTelefono>
+	   <strEmail> jorgemu122@gmail.com </strEmail>
+     </item>
+</root>'
